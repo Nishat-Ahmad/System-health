@@ -40,9 +40,9 @@ Make sure the following tools are installed:
 - `ping`, `dmesg`, `ps`, `df`, `top`, and other basic Linux utilities.
 
 You can install any missing packages using:
-  ```bash
-  sudo apt update
-  sudo apt install net-tools ufw lsb-release sysstat
+    ```bash
+      sudo apt update
+      sudo apt install net-tools ufw lsb-release sysstat
 Usage
 Make the script executable:
 
