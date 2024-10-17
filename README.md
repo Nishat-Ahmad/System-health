@@ -40,42 +40,6 @@ Make sure the following tools are installed:
 - `ping`, `dmesg`, `ps`, `df`, `top`, and other basic Linux utilities.
 
 You can install any missing packages using:
-    ```bash
-      sudo apt update
-      sudo apt install net-tools ufw lsb-release sysstat
-Usage
-Make the script executable:
-
-bash
-Copy code
-chmod +x health_monitor.sh
-Run the script:
-
-sudo ./health_monitor.sh
-The script will print out various system metrics to the terminal, offering a snapshot of the system's current health.
-
-Example Output
---------------------------------------------------
--------- System health monitoring system ---------
---------------------------------------------------
-
-Current Date and Time: Sun Oct 17 14:25:46 UTC 2024
---------------------------------------------------
-
-Current Uptime: up 1 hour, 45 minutes
---------------------------------------------------
-
-Current Linux Kernel Version: 5.10.60.1-microsoft-standard-WSL2
---------------------------------------------------
-
-...
--------- System health checkup was successful ---------
--------------------------------------------------------
-Notes
-The script includes several commands that require elevated privileges (sudo), so you'll be prompted for your password when necessary.
-Disclaimer: Running this script frequently is not recommended for production systems, as certain commands (e.g., apt update or frequent disk checks) may consume system resources.
-License
-This project is open-source and can be modified and distributed freely.
-
-
-This `README.md` provides instructions, descriptions, usage, and prerequisites for your system health monitoring script, making it easy for others to understand and use.
+```bash
+sudo apt update
+sudo apt install net-tools ufw lsb-release sysstat
