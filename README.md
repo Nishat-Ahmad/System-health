@@ -56,24 +56,6 @@ sudo ./health_monitor.sh
 ```
 3. The script will print out various system metrics to the terminal, offering a snapshot of the system's current health.
 
-Example Output
---------------------------------------------------
--------- System health monitoring system ---------
---------------------------------------------------
-
-Current Date and Time: Sun Oct 17 14:25:46 UTC 2024
---------------------------------------------------
-
-Current Uptime: up 1 hour, 45 minutes
---------------------------------------------------
-
-Current Linux Kernel Version: 5.10.60.1-microsoft-standard-WSL2
---------------------------------------------------
-
-...
--------- System health checkup was successful ---------
--------------------------------------------------------
-
 Notes
 The script includes several commands that require elevated privileges (sudo), so you'll be prompted for your password when necessary.
 Disclaimer: Running this script frequently is not recommended for production systems, as certain commands (e.g., apt update or frequent disk checks) may consume system resources.
